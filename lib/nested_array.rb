@@ -59,7 +59,7 @@ def matrix_lookup(matrix, row, column)
   "Potatoes",
   "Grapes",
   "Avocadoes",
-  "Asparagus"],sort
+  "Asparagus"].sort
     ]
     
 produce_room_storage[1][1]
