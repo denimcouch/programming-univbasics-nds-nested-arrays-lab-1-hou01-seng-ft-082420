@@ -53,8 +53,13 @@ sorted_matrix
 
 def matrix_lookup(matrix, row, column)
   
-assembled_matrix[row][column]
-sorted_matrix[row][column]
+  if assembled_matrix(row, column)
+    assembled_matrix[row][column]
+  end
+  
+  if sorted_matrix(row,column)
+    sorted_matrix[row][column]
+  end
 
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
