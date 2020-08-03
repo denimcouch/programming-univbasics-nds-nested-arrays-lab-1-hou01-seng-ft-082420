@@ -54,12 +54,12 @@ def matrix_lookup(matrix, row, column)
   "Pineapple",
   "Oranges",
   "Watermelon",
-  "Eggplant"],
+  "Eggplant"].sort,
     ["Strawberries",
   "Potatoes",
   "Grapes",
   "Avocadoes",
-  "Asparagus"]
+  "Asparagus"],sort
     ]
     
 produce_room_storage[1][1]
